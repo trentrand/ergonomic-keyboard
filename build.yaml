@@ -18,5 +18,7 @@
 #
 ---
 include:
-  - board: adv360pro_left
-  - board: adv360pro_right
+  - board: nice_nano_v2
+    shield: dactyl_manuform_5x7_left
+  - board: nice_nano_v2
+    shield: dactyl_manuform_5x7_right
