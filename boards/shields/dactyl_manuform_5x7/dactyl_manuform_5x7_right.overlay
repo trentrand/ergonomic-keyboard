@@ -5,13 +5,21 @@
 };
 
 &kscan0 {
+    row-gpios
+        = <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1  7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+
     col-gpios
-        = <&gpio0 20 GPIO_ACTIVE_HIGH>
-        , <&gpio0 22 GPIO_ACTIVE_HIGH>
-        , <&gpio0 24 GPIO_ACTIVE_HIGH>
-        , <&gpio1 0 GPIO_ACTIVE_HIGH>
-        , <&gpio0 11 GPIO_ACTIVE_HIGH>
-        , <&gpio1 4 GPIO_ACTIVE_HIGH>
-        , <&gpio1 6 GPIO_ACTIVE_HIGH>
+        = <&gpio0 29 GPIO_ACTIVE_HIGH>
+        , <&gpio0  2 GPIO_ACTIVE_HIGH>
+        , <&gpio1 15 GPIO_ACTIVE_HIGH>
+        , <&gpio1 13 GPIO_ACTIVE_HIGH>
+        , <&gpio1 11 GPIO_ACTIVE_HIGH>
+        , <&gpio0 10 GPIO_ACTIVE_HIGH>
+        , <&gpio0  9 GPIO_ACTIVE_HIGH>
         ;
 };
