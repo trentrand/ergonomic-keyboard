@@ -23,8 +23,8 @@
               &kp LALT        &kp Z         &kp X         &kp C         &kp V         &kp B                                                      &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp BACKSLASH
                                             &kp DELETE    &kp LALT                                                                                                           &kp LBKT      &kp RBKT
 
-                                                                                         &kp LEFT_SHIFT  &kp SPACE                         &mkp RCLK
-                                                                                           &kp BACKSPACE &kp LCMD                        &mkp LCLK
+                                                                                         &kp LEFT_SHIFT  &kp BACKSPACE                     &mkp RCLK
+                                                                                           &kp SPACE     &kp LCMD                        &mkp LCLK
                                                                                            &kp ENTER     &kp LCTL             &kp LCMD  &kp ESCAPE
             >;
         };
