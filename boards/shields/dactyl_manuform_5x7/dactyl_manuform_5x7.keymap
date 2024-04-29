@@ -17,15 +17,15 @@
 
         default_layer {
             bindings = <
-              &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LESS_THAN             &kp GREATER_THAN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
-              &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T         &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &kp Y         &kp U         &kp I           &kp O         &kp P          &kp BACKSLASH
-              &kp LCMD        &kp A         &kp S         &kp D         &kp F         &kp G         &kp LEFT_BRACE            &kp RIGHT_BRACE    &kp H         &kp J         &kp K           &kp L         &kp SEMICOLON  &kp ENTER
-              &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B                                                      &kp N         &kp M         &kp COMMA       &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
-                                            &kp DELETE    &kp END                                                                                                            &kp F1          &kp F2
+              &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LESS_THAN             &kp GREATER_THAN   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
+              &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T         &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &kp Y         &kp U         &kp I         &kp O         &kp P          &kp EQUAL
+              &kp LCMD        &kp A         &kp S         &kp D         &kp F         &kp G         &kp LEFT_BRACE            &kp RIGHT_BRACE    &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SINGLE_QUOTE
+              &kp LALT        &kp Z         &kp X         &kp C         &kp V         &kp B                                                      &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp BACKSLASH
+                                            &kp DELETE    &kp LALT                                                                                                           &kp LBKT      &kp RBKT
 
-                                                                          &kp NUMBER_1  &kp NUMBER_2                                         &kp NUMBER_4
-                                                                            &kp NUMBER_5  &kp NUMBER_3                                     &kp NUMBER_5
-                                                                            &kp NUMBER_6  &kp NUMBER_4                        &mkp LCLK  &mkp RCLK
+                                                                                         &kp LEFT_SHIFT  &kp SPACE                         &mkp RCLK
+                                                                                           &kp BACKSPACE &kp LCMD                        &mkp LCLK
+                                                                                           &kp ENTER     &kp LCTL             &kp LCMD  &kp ESCAPE
             >;
         };
     };
