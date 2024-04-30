@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "keys_en_gb_extended.h"
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
