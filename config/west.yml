@@ -1,11 +1,16 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/petejohanson
+    - name: trackball-driver
+      url-base: https://github.com/bigtree908
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: feat/pointers-move-scroll
       import: app/west.yml
+    - name: pmw3360
+      remote: trackball-driver
+      revision: pmw3360
   self:
     path: config
