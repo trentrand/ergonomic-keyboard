@@ -14,10 +14,3 @@
     time-to-max-speed-ms = <300>;
     delay-ms = <0>;
 };
-
-&usbd {
-    status = "okay";
-    cdc_acm_uart: cdc_acm_uart {
-        compatible = "zephyr,cdc-acm-uart";
-    };
-};

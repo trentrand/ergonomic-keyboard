@@ -20,4 +20,7 @@ if SHIELD_DACTYL_MANUFORM_5x7_LEFT || SHIELD_DACTYL_MANUFORM_5x7_RIGHT
     config ZMK_SPLIT
         default y
 
+    config ZMK_USB
+        default y
+
 endif
