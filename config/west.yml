@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/theninj4
+      url-base: https://github.com/trentrand
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: pmw33xx
+      revision: main
       import: app/west.yml
   self:
     path: config
