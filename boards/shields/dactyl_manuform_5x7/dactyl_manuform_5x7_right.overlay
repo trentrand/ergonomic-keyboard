@@ -43,7 +43,7 @@
     };
 };
 
-&spi0 {
+&spi1 {
     status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;
@@ -53,12 +53,12 @@
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw33xx";
-        reg = <0>;
+        reg = <0x0>;
         spi-max-frequency = <2000000>;
         label = "TRACKBALL";
         cs-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>;
-        cpi = <1000>;
-        motswk-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        cpi = <1600>;
+        motswk-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
     };
 };
 
