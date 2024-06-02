@@ -5,12 +5,12 @@ manifest:
     - name: pmw3360-driver
       url-base: https://github.com/trentrand
   projects:
-    - name: zmk-pmw3360-driver
-      remote: pmw3360-driver
-      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
+    - name: zmk-pmw3360-driver
+      remote: pmw3360-driver
+      revision: main
   self:
     path: config
