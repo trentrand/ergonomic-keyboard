@@ -3,7 +3,7 @@ on:
   pull_request:
   workflow_dispatch:
   repository_dispatch:
-    types: [pmw3360-driver-updated]
+    types: [pmw3610-driver-updated]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
