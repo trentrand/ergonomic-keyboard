@@ -40,6 +40,18 @@ Fabrication Process:
 2. The PCB was ordered from an Electronic Design Automation (EDA) service.
 3. The PMW3610 module was sourced separately and soldered onto the fabricated PCB.
 
+Connection to nRF52840:
+
+| PMW3610 Pin | nRF52840 Pin    | Description |
+|-------------|-----------------|-------------|
+| SDIO        | P1.00           | SPI MOSI/MISO (bidirectional data line) |
+| SCLK        | P0.24           | SPI clock signal |
+| NCS         | P0.22           | Chip select (active low) |
+| NRESET      | *Not connected* | Reset pin (likely handled internally) |
+| MOT         | P0.20           | Motion interrupt pin (active low, pull-up) |
+| GND         | GND             | Ground |
+| VDD         | VCC             | Power supply (3.3V) |
+
 Special thanks to siderakb for providing the open-source PCB design files.
 
 ### Build Process
