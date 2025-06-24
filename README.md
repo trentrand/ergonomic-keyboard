@@ -8,7 +8,8 @@ This is a custom-built 5x7 Dactyl Manuform keyboard, generated using the Cosmos 
 
 ## PMW3610 Breakout Board
 
-**[🛒 Purchase the PMW3610 Breakout Board on Tindie](https://www.tindie.com/products/randware/pmw3610-breakout-board/)**
+**[🛒 Purchase the PMW3610 Breakout Board on Tindie](https://www.tindie.com/products/randware/pmw3610-breakout-board/)**\
+**[📖 Wiring & Setup Guide](https://github.com/trentrand/ergonomic-keyboard/blob/main/PMW3610%20Instructions.pdf)**
 
 Build your own version of this keyboard with our ready-to-use PMW3610 motion tracking board. This ultra-low power sensor is perfect for custom trackballs, mice, and battery-powered projects like this keyboard. Each board is hand-tested and ships from Arizona, USA with clear pin labels for easy integration.
 
